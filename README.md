@@ -46,7 +46,7 @@ Tu dois utiliser le service **HttpClient** pour récupérer les données.
 
 Il te reste du temps ? Parfait ! Tu vas pouvoir ajouter quelques fonctionnalités utiles à ton projet Angular !
 
-- ajoute un `select` qui liste tous les thémes et qui permet de filtrer la liste affichée.
+- ajoute un `select` qui liste tous les thèmes et qui permet de filtrer la liste affichée.
 - ajoute un bouton `voir la promo` pour chaque jeu et utilise le router Angular pour afficher l'image `promo` et/ou la vidéo `trailer` sur une page avec une url de type `http://localhost:3000/jeu/promo/5` ou 5 est l'id du jeu selectionné.
 
 ## Étape 5 - Et voilà...
