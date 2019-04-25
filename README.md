@@ -13,7 +13,7 @@ Ce checkpoint est très consistant, si tu n'arrives pas à tout faire ce n'est p
 - NodeJS
 - NPM
 - [wcs-checkpoints-quiz](https://www.npmjs.com/package/wcs-checkpoints-quiz)
-- [create-react-app ](https://github.com/facebook/create-react-app)
+- @angular/cli
 
 ## Étape 1 - Quiz
 
