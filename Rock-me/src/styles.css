@@ -1,0 +1,242 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body {
+
+	background: linear-gradient(90deg, #0066B4, #ffe5e6);
+
+	font-family: "Source Sans Pro", sans-serif;
+
+	font-size: 18px;
+
+	font-weight: 300;
+
+	padding: 100px 40px;
+
+}
+
+
+
+.image_frame {
+
+	border: 5px solid #fff;
+
+	height: 350px;
+
+	margin: 0 auto;
+
+	position: relative;
+
+	width: 500px;
+
+}
+
+
+
+.bubble {
+
+    background: #c60001;
+
+    border-radius: 6px;
+
+    color: #fff;
+
+    display: inline-block;
+
+    padding: 10px 15px;
+
+    position: relative;
+
+    text-decoration: none;
+
+    transform-origin: 0 100%;
+
+    transition: 450ms;
+
+	transition-timing-function: cubic-bezier(.68, -.55, .265, 1.55);
+
+    user-select: none;
+
+}
+
+
+
+.bubble:after {
+
+    border: 8px solid;
+
+    border-color: #c60001 transparent transparent #c60001;
+
+    content: "";
+
+    height: 0;
+
+    left: 20px;
+
+    position: absolute;
+
+    top: 100%;
+
+    width: 0;
+
+}
+
+
+
+.bubble.right {
+
+    transform-origin: 100% 100%;
+
+}
+
+
+
+.bubble.right:after {
+
+    border-color: #fff #fff transparent transparent;
+
+    left: auto;
+
+    right: 20px;
+
+}
+
+
+
+.bubble.highlight {
+
+    background: #f07d00;
+
+}
+
+
+
+.chat_overview {
+
+    align-items: center;
+
+    display: flex;
+
+    height: 100%;
+
+    justify-content: flex-end;
+
+    margin: 0 40px;
+
+    position: relative;
+
+    z-index: 1;
+
+
+
+
+
+}
+
+
+
+.chat_overview > .inner {
+
+    bottom: 0;
+
+    left: 0;
+
+    position: absolute;
+
+    right: 0;
+
+    top: 0;
+
+}
+
+
+
+.chat_message {
+
+	opacity: 0;
+
+    bottom: 0;
+
+    left: 0;
+
+    padding-bottom: 15px;
+
+    position: absolute;
+
+    transition: 300ms ease-out;
+
+	transition-timing-function: cubic-bezier(.68, -.55, .265, 1.55);
+
+
+
+}
+
+
+
+
+
+.chat_message.show {
+
+    opacity: 1;
+
+}
+
+
+
+.chat_message.last {
+
+    padding-bottom: 0;
+
+}
+
+
+
+.chat_message.right {
+
+    align-self: flex-end;
+
+    left: auto;
+
+    right: 0;
+
+}
+
+
+
+.bubble {
+
+    opacity: 0;
+
+    transform: scale(0);
+
+
+
+
+
+}
+
+
+
+.chat_message .bubble.highlight {
+
+    background: #fff;
+
+}
+
+
+
+.chat_message .bubble.highlight .text {
+
+    color: #000;
+
+}
+
+
+
+.chat_message.show .bubble {
+
+    opacity: 1;
+
+    transform: scale(1);
+
+}
+

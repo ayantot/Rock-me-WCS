@@ -1,0 +1,92 @@
+h2 {
+  font-family: sans-serif;
+  font-size: 200%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding-top: 5%;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+.title1{
+  text-align: center;
+  font-family: sans-serif;
+  color: antiquewhite;
+}
+
+.fond{
+background-image: url("https://s14-eu5.startpage.com/cgi-bin/serveimage?url=https%3A%2F%2Fimg.maxisciences.com%2Farticle%2Fastronomie%2Fles-etoiles-sont-particulierement-observable-la-nuit-car-elle-degage-de-l-energie-lumineuse_9fc06da966dbb33b5bd4dd471961a8d28ecc373f.jpg&sp=1481ee6080114978db3d80b561484add");
+}
+
+
+.button{
+height:15%;
+
+}
+
+.select{
+margin-top: 10%;
+margin-left: 6%;
+}
+
+.img{
+margin-top: -9%;
+margin-left: 10%;
+size: 10%;
+height: 10%;
+}
+
+.des{
+margin-left: 4%;
+text-align: justify;
+text-align: center;
+font-size: 90%;
+font-family: sans-serif;
+color:white;
+background-color: black;
+}
+
+
+.en-tete{
+display: inline;
+}
+nav, footer{
+font-family: 'Orbitron', sans-serif;
+}
+.nav-item{
+color: white;
+}
+nav{
+font-size: 1.4rem;
+letter-spacing: .6rem;
+font-weight: bold;
+top: 0px;
+left:0px;
+/* z-index:3; */
+width: 90%;
+}
+
+.logo-footer{
+width: 30%;
+}
+.logo-nav{
+width: 30%;
+}
+.menu-droit{
+text-align: right;
+}
+.title{
+display: inline;
+left: 0px;
+color: #0066B4;
+font-size: 3rem;
+font-family: 'Orbitron', sans-serif;
+font-weight: bold;
+opacity: 8;
+text-shadow: 2px 2px 4px rgb(248, 231, 231), 0 0 1em rgb(226, 50, 88), 0 0 0.2em #0066B4;
+}
+footer{
+background-color:rgb(26, 53, 102);
+margin-top: 17%;
+width: 100%;
+}

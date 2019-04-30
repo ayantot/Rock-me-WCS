@@ -1,0 +1,58 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.en-tete{
+  display: inline;
+}
+nav, .footer{
+  font-family: 'Orbitron', sans-serif;
+}
+.nav-item{
+  color: white;
+}
+nav{
+  font-size: 1.4rem;
+  letter-spacing: .6rem;
+  font-weight: bold;
+  position: fixed;
+  top: 0px;
+  left:0px;
+  z-index:3;
+  width: 100%;
+}
+
+.logo-footer{
+  width: 2%;
+}
+.logo-nav{
+  width: 20%;
+}
+.menu-droit{
+  text-align: right;
+}
+.title{
+  display: inline;
+  left: 0px;
+  color: #0066B4;
+  font-size: 3rem;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  opacity: 8;
+  text-shadow: 2px 2px 4px rgb(248, 231, 231), 0 0 1em rgb(226, 50, 88), 0 0 0.2em #0066B4;
+}
+.footer{
+  display: block;
+  background-color:rgb(26, 53, 102);
+  color: white;
+  opacity: 9;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align:right;
+
+}
+
+
+
+
