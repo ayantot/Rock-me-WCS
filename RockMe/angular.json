@@ -23,10 +23,12 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true
+            
           },
           "configurations": {
             "production": {
@@ -84,7 +86,7 @@
             ],
             "scripts": [],
             "assets": [
-              "src/favicon.ico",
+              "src/fav  icon.ico",
               "src/assets"
             ]
           }

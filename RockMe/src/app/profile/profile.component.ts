@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
@@ -10,11 +11,12 @@ export class ProfileComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
   myDetail() {
 
-    var all = document.querySelectorAll(".carousel-item .carousel-caption div");
-    var element = document.querySelector(".carousel-item.active .carousel-caption div");
+    var all:NodeListOf<HTMLElement> = document.querySelectorAll(".carousel-item .carousel-caption div");
+    var element:HTMLElement = document.querySelector(".carousel-item.active .carousel-caption div");
 
     for( let i = 0; i < all.length; i++ ){
         all[i].style.display = "none";
@@ -23,8 +25,8 @@ export class ProfileComponent implements OnInit {
     element.style.display = "block";
   }
 
- 
-  $('.carousel').carousel({
-    interval: false
-});
+
 }
+
+
+
