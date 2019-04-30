@@ -14,16 +14,16 @@ export class HomeComponent implements OnInit {
   constructor(private myService:NasaService){
     this.image = [];
 
-    this.myService.getImage().subscribe(
-      (param_image:string[]) => {
-        this.image = param_image;
-        console.log(param_image);
-        return (param_image);
-      }
-    );
+    
   }
 
   ngOnInit() {
+    this.myService.getImage().subscribe(
+      (param_image:string[]) => {
+        this.image = param_image;
+        document.body.style.backgroundImage = 'url("'+param_image[0]+'")';
+      }
+    );
   }
 
 }
