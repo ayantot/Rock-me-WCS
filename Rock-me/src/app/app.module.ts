@@ -4,7 +4,6 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DialogueComponent } from './dialogue/dialogue.component';
-import { PresentationComponent } from './presentation/presentation.component';
 import { Criteres1Component } from './criteres1/criteres1.component';
 import { ConditionsComponent } from './conditions/conditions.component';
 import { ContactComponent } from './contact/contact.component';
@@ -20,7 +19,6 @@ import { SelectService } from './select.service';
   declarations: [
     AppComponent,
     DialogueComponent,
-    PresentationComponent,
     Criteres1Component,
     Criterion2Component,
     ConditionsComponent,
@@ -42,7 +40,6 @@ import { SelectService } from './select.service';
       {path:'', component: HomeComponent},
       {path:'Conditions', component: ConditionsComponent },
       {path:'Contact', component: ContactComponent },
-      {path:'Présentation', component: PresentationComponent}
 
     ]
     )
