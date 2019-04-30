@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "rockme": {
+    "Projet2": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/rockme",
+            "outputPath": "dist/Projet2",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -58,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "rockme:build"
+            "browserTarget": "Projet2:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "rockme:build:production"
+              "browserTarget": "Projet2:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "rockme:build"
+            "browserTarget": "Projet2:build"
           }
         },
         "test": {
@@ -82,7 +82,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [ "../node_modules/jquery/dist/jquery.min.js" ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -103,7 +103,7 @@
         }
       }
     },
-    "rockme-e2e": {
+    "Projet2-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -112,11 +112,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "rockme:serve"
+            "devServerTarget": "Projet2:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "rockme:serve:production"
+              "devServerTarget": "Projet2:serve:production"
             }
           }
         },
@@ -132,5 +132,5 @@
       }
     }
   },
-  "defaultProject": "rockme"
+  "defaultProject": "Projet2"
 }
