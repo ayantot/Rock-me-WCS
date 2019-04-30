@@ -45,9 +45,18 @@ Tu dois utiliser le service **HttpClient** pour récupérer les données.
 ## Étape 4 - Bonus
 
 Il te reste du temps ? Parfait ! Tu vas pouvoir ajouter quelques fonctionnalités utiles à ton projet Angular !
+Les bonus sont indépendants les uns des autres, tu peux les réaliser dans l'ordre que tu  veux.
 
+### Selection d'un thème
 - ajoute un `select` qui liste tous les thèmes et qui permet de filtrer la liste affichée.
 - ajoute un bouton `voir la promo` pour chaque jeu et utilise le router Angular pour afficher l'image `promo` et/ou la vidéo `trailer` sur une page avec une url de type `http://localhost:3000/jeu/promo/5` ou 5 est l'id du jeu selectionné.
+
+### Format des dates
+- Affiche le champ date formaté comme dans l'exemple suivant ¨31/06/2019, 12:00¨, em utilisant un `Pipe`
+
+### Création/utilisation d'un service
+- Créer un service Angular qui sera chargé d'interroger l'API
+- Utilise ce service dans tes `components` à la place du service `http`
 
 ## Étape 5 - Et voilà...
 
