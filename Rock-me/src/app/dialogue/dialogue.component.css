@@ -1,4 +1,106 @@
-.dialogue{
-  margin: 5rem;
-  width: 80%;
+body {background: #0066b4;}
+
+h1 {
+    background: white;
+    border-radius: 6px;
+    color: black;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
 }
+
+h1:after {
+
+    border: 8px solid;
+    border-color: white transparent transparent white;
+    content: "";
+    height: 0;
+    left: 20px;
+    position: absolute;
+    top: 100%;
+    width: 0%;
+
+}
+
+.button{
+    background-color: green;
+    border: #0066b4;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position:fixed;
+    left:65%;
+    margin-top: 30%;
+}
+
+.buttonX{
+    background-color: red;
+    border: #0066b4;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position:fixed;
+    left:20%;
+    margin-top: 30%;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.demo{
+    border-radius: 6px;
+    display: none;
+    color: white;
+    position: fixed;
+    margin-top: 5%;
+    padding: 1%;
+
+}
+
+#demo{
+    background: greenyellow;
+    color: black;
+    text-align: left;
+    margin-left: 60%;
+}
+
+#demo1{
+    background: #c60001 ;
+    color:white;
+    text-align: left;
+    margin-left: 70%;
+}
+
+#demo2{
+    background: yellow;
+    color:black;
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 50%;
+}
+
+#demo3{
+    background: #c60001 ;
+    color: white;
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 75%;
+}
+
+.demo:after{
+    border: 8px solid;
+    content: "";
+    height: 0;
+    right: 20px;
+    position: absolute;
+    top: 100%;
+    width: 0;
+    left: auto;
+}
+
+#demo:after{border-color: greenyellow transparent transparent greenyellow;}
+#demo1:after{border-color: #c60001 transparent transparent #c60001;}
+#demo2:after{border-color: yellow transparent transparent yellow;}
+#demo3:after{border-color: #c60001  transparent transparent #c60001;}

@@ -1,18 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-@Component({
-  selector: 'app-dialogue',
-  templateUrl: './dialogue.component.html',
-  styleUrls: ['./dialogue.component.css']
-})
-export class DialogueComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
-
+/* En cliquant sur le boutton "validation" vert un message apparait ci-dessous*/
 function myFunction() {
   var demo = document.getElementById("demo");
 

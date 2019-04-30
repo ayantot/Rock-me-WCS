@@ -1,3 +1,37 @@
+header {
+
+  top: 0px;
+
+  font-family: 'Orbitron', sans-serif;
+
+  font-size: 1.4rem;
+
+  letter-spacing: .6rem;
+
+  font-weight: bold;
+
+}
+.logo-nav {
+
+  width: 20%;
+
+}
+
+/* Footer */
+/*
+footer {
+
+  display: block;
+
+  color: white;
+
+  bottom: 0px;
+
+  font-family: 'Orbitron', sans-serif;
+
+}
+*/
+
 body{
   padding: 0px;
   margin: 0px;
@@ -23,7 +57,7 @@ nav{
 }
 
 .logo-footer{
-  width: 2%;
+  width: 12%;
 }
 .logo-nav{
   width: 20%;
@@ -41,6 +75,7 @@ nav{
   opacity: 8;
   text-shadow: 2px 2px 4px rgb(248, 231, 231), 0 0 1em rgb(226, 50, 88), 0 0 0.2em #0066B4;
 }
+
 .footer{
   display: block;
   background-color:rgb(26, 53, 102);
