@@ -1,0 +1,161 @@
+@media (min-width: 320px) and (max-width: 767px) {
+
+
+  header {
+
+    top: 0px; 
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: .6rem;
+    font-weight: bold;
+  
+  }
+  
+  .logo-nav {
+  
+    width: 30%;
+  
+  }
+  h2{
+    text-align: center;
+    margin-top: 8%;
+  }
+  .name{
+    margin-top: 18%;
+    margin-left: 5%;
+  }
+  .mail{
+    margin-left: 5%;
+  }
+  .message{
+    margin-left:5%;
+  }
+  .btn{
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  label{
+    margin-bottom: 5%;
+    margin-top: 10%;
+  }
+  footer {
+
+    display: block;
+    color: white;
+    margin-top:45%;
+    font-family: 'Orbitron', sans-serif;
+  
+  }
+
+
+ 
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  header {
+
+    top: 0px; 
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: .6rem;
+    font-weight: bold;
+  
+  }
+  
+  .logo-nav {
+  
+    width: 30%;
+  
+  }
+  .logo-nav {
+  
+    width: 20%;
+  
+  }
+  h2{
+    text-align: center;
+    margin-top: 8%;
+  }
+  .name{
+    margin-top: 18%;
+    margin-left: 15%;
+  }
+  .mail{
+    margin-left: 24.7%;
+  }
+  .message{
+    margin-left:19.5%;
+  }
+  .btn{
+    margin-left: 60%;
+  }
+  label{
+    margin-bottom: 10%;
+  }
+  footer {
+
+    display: block;
+    color: white;
+    margin-top:55%;
+    font-family: 'Orbitron', sans-serif;
+  
+  }
+
+}
+
+@media (min-width: 1025px) {
+
+  header {
+
+    top: 0px; 
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: .6rem;
+    font-weight: bold;
+  
+  }
+  
+  .logo-nav {
+  
+    width: 20%;
+  
+  }
+  h2{
+    text-align: center;
+    margin-top: 5%;
+  }
+  .name{
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+  .mail{
+    margin-left: 36.2%;
+  }
+  .message{
+    margin-left:32%;
+  }
+  .btn{
+    margin-left: 52%;
+  }
+  label{
+    margin-bottom: 3%;
+  }
+  footer {
+
+    display: block;
+    color: white;
+    margin-top:12%;
+    font-family: 'Orbitron', sans-serif;
+  
+  }
+
+}
+.page{
+  font-family: 'Orbitron', sans-serif;
+  background-image: url("/assets/backgroundrockme.png");
+  color:white;
+
+}
+
+
