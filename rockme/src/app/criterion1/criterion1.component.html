@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <header>
@@ -31,32 +30,35 @@
 
         <div class="dropdown">
           <button class="btn btn-light dropdown-toggle btn-block bouton2" type="button" data-toggle="dropdown">Select
-            your Solar System
+            your Planet System
             <span class="caret"></span></button>
           <ul class="dropdown-menu">
-            <li><a href="#">Earth's Solar System</a></li>
+            <li><a href="#">Solar System</a></li>
             <li><a href="#">Proxyma Centauri</a></li>
+            <li><a href="#">Lyche System</a></li>
           </ul>
         </div><br /><br />
 
         <a href="#demo2" class="btn btn-light btn-block bouton2" data-toggle="collapse">Enter your Weight</a>
         <div id="demo2" class="collapse">
           <div class="range-slider">
-            <input class="range-slider__range" type="range" value="100" min="0" max="500">
-            <span class="range-slider__value">0</span>
+            <input class="range-slider__range" type="range" value="100" min="0" max="500" [(ngModel)]="currentWeight">
+            <span class="range-slider__value">{{currentWeight}}</span>
           </div>
         </div><br /><br />
 
         <a href="#demo3" class="btn btn-light btn-block bouton2" data-toggle="collapse">Choose your Sex</a>
         <div id="demo3" class="collapse">
           <form>
-            <div class="custom-control custom-radio custom-control-inline text-white">
-              <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
-              <label class="custom-control-label" for="customRadio">Male</label>
-            </div>
-            <div class="custom-control custom-radio custom-control-inline text-white">
-              <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
-              <label class="custom-control-label" for="customRadio2">Female</label>
+            <div class="block-radio">
+              <div class="custom-control custom-radio custom-control-inline text-white">
+                <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+                <label class="custom-control-label" for="customRadio">Male</label>
+              </div>
+              <div class="custom-control custom-radio custom-control-inline text-white">
+                <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+                <label class="custom-control-label" for="customRadio2">Female</label>
+              </div>
             </div>
           </form>
         </div><br /><br />
@@ -71,15 +73,13 @@
           </form>
         </div><br /><br /> -->
 
-        <button type="button" class="btn btn-light btn-block bouton2">Let's Rock</button><br /><br />
+        <a class="btn btn-light btn-block bouton2" aria-pressed="true" href="#" role="button">Let's Rock</a><br /><br />
 
       </div>
     </div>
   </div>
-
 </body>
 
-<router-outlet></router-outlet>
 
 <footer>
   <ul class="nav justify-content-center nav-dark bg-dark">
@@ -92,4 +92,4 @@
   </ul>
 </footer>
 
-</html>
+<html>
