@@ -2,6 +2,6 @@
 
 Homepage staf works on 3 pages:
 
--Homepage
--Privacy terms
--Contact
+- Homepage
+- Privacy terms
+- Contact
