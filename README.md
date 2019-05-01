@@ -1,2 +1,3 @@
 # Rock-me-WCS
-Create a date website for asteroids (Wild Code School project2)
+
+Criterion1 is the page where you can send your profile with a form.
