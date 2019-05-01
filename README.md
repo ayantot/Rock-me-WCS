@@ -1,2 +1,3 @@
 # Rock-me-WCS
-Create a date website for asteroids (Wild Code School project2)
+
+Criterion2 is a page where you can define the search area.
