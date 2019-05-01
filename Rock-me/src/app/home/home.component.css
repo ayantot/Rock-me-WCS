@@ -1,0 +1,145 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .started{
+
+    width: 60%;
+    right: 1rem;
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 20%;
+
+  }
+  .text-presentation{
+    color: white;
+    font-size: 110%;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 13px 15px #0066B4;
+    text-align: center;
+    margin-top:10%;
+    margin-bottom: 20%;
+  }
+  header {
+
+    top: 0px; 
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: .6rem;
+    font-weight: bold;
+  
+  }
+  
+  .logo-nav {
+  
+    width: 30%;
+  
+  }
+  footer {
+
+    display: block;
+    color: white;
+    margin-top:55%;
+    font-family: 'Orbitron', sans-serif;
+  
+  }
+
+
+ 
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .started{
+
+    width: 60%;
+    right: 1rem;
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 20%;
+
+  }
+  .text-presentation{
+    color: white;
+    font-size: 200%;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 13px 15px #0066B4;
+    text-align: center;
+    margin-top:20%;
+    margin-bottom: 26%;
+  }
+  header {
+
+    top: 0px; 
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: .6rem;
+    font-weight: bold;
+  
+  }
+  
+  .logo-nav {
+  
+    width: 30%;
+  
+  }
+  footer {
+
+    display: block;
+    color: white;
+    margin-top:40%;
+    font-family: 'Orbitron', sans-serif;
+  
+  }
+
+}
+
+@media (min-width: 1025px) {
+  .started{
+
+    width: 60%;
+    right: 1rem;
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 20%;
+
+  }
+  .text-presentation{
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 13px 15px #0066B4;
+    text-align: center;
+    margin-top:5%;
+    margin-bottom: 5%;
+  }
+  header {
+
+    top: 0px; 
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: .6rem;
+    font-weight: bold;
+  
+  }
+  
+  .logo-nav {
+  
+    width: 20%;
+  
+  }
+  footer {
+
+    display: block;
+    color: white;
+    margin-top:12%;
+    font-family: 'Orbitron', sans-serif;
+  
+  }
+
+}
+
+
+
+
+
+
+
+
+
