@@ -9,7 +9,6 @@ import { HomeComponent } from './home/home.component';
 import { Criterion1Component } from './criterion1/criterion1.component';
 import { Criterion2Component } from './criterion2/criterion2.component';
 import { ProfileComponent } from './profile/profile.component';
-import { DiscussionComponent } from './discussion/discussion.component';
 import { SelectService } from './select.service';
 
 @NgModule({
@@ -19,7 +18,6 @@ import { SelectService } from './select.service';
     Criterion1Component,
     Criterion2Component,
     ProfileComponent,
-    DiscussionComponent
   ],
   imports: [
     BrowserModule,
