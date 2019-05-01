@@ -300,8 +300,7 @@
     border-radius: 50%;
     font-weight: bold;
     font-size: 40px;
-    margin-top: 25%;
-    position: fixed;
+    margin-top: 130%;
   }
   #buttonX {
     background-color: red;
@@ -312,9 +311,9 @@
     border-radius: 50%;
     font-weight: bold;
     font-size: 50px;
-    margin-top: 25%;
-    position: fixed;
-    margin-left: -10%;
+    margin-top: 130%;
+    /* position: fixed; */
+    margin-left: -13%;
   }
   p {
     font-size: 30px;
@@ -339,7 +338,7 @@
     background: #c60001;
     color: white;
     text-align: left;
-    margin-right: 42%;
+    margin-left: 60%;
     margin-top: 2%;
     position: absolute;
   }
@@ -348,7 +347,7 @@
     color: black;
     text-align: left;
     margin-top: 15%;
-    margin-left: 6%;
+    margin-left: 20%;
     position: absolute;
   }
   #demo3 {
@@ -356,7 +355,7 @@
     color: white;
     text-align: left;
     margin-top: 15%;
-    margin-left: 20%;
+    margin-left: 25%;
     position: absolute;
   }
   .demo:after {
@@ -392,7 +391,7 @@
   footer {
     display: block;
     color: white;
-    margin-top: 33%;
+    margin-top: 5%;
     font-family: 'Orbitron', sans-serif;
   }
 }

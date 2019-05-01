@@ -23,13 +23,13 @@ export class ChatComponent implements OnInit {
 
   congratulations() {
     var demo2 = document.getElementById("demo2");
-    demo2.innerHTML = "CONGRULATIONS : RENDEZ-VOUS DANS 200 ANS SUR TERRE";
+    demo2.innerHTML = "CONGRATULATIONS: SEE YOU SOON !";
     demo2.style.display = "block";
   }
 
   sorry() {
     var demo3 = document.getElementById("demo3");
-    demo3.innerHTML = "DESOLE POUR UNE PROCHAINE";
+    demo3.innerHTML = "SORRY, TRY AN OTHER PROFILE";
     demo3.style.display = "block";
   }
 
