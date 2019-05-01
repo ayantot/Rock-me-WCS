@@ -1,0 +1,159 @@
+@font-face{
+  font-family: 'Orbitron'; 
+  src: url("/assets/Orbitron-Regular.ttf");
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .img{
+    width:40%;
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  label{
+    margin-top: 10%;
+  }
+  .des{
+    text-align: center;
+  }
+  .btn{
+    margin-top: 8%;
+  }
+  .titre1{
+    margin-bottom: 50%;
+  }
+  footer {
+
+    display: block;
+  
+    color: white;
+  
+    margin-top: 55%;
+  
+    font-family: 'Orbitron', sans-serif;
+  
+  }
+ 
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .img{
+    width:40%;
+    margin-left: 50%;
+    margin-top: 8%;
+  }
+  .des{
+    margin-top: -30%;
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+  }
+  label{
+    margin-top: 10%;
+  }
+  .btn{
+    margin-top:8%;
+
+  }
+  footer {
+
+    display: block;
+  
+    color: white;
+  
+    margin-top: 55%;
+  
+    font-family: 'Orbitron', sans-serif;
+  
+  }
+}
+
+
+@media (min-width: 1281px) {
+  .img{
+    width:20%;
+    margin-left: 58%;
+    margin-top: -20%;
+  }
+  .des{
+    margin-left: 55%;
+    margin-right: 20%;
+    text-align: center; 
+      }
+  h2{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  label{
+    margin-top: 5%;
+  }
+  .btn{
+    margin-top:8%;
+    margin-left: 10%;
+  }
+  header {
+
+    top: 0px; 
+  
+    font-family: 'Orbitron', sans-serif;
+  
+    font-size: 1.4rem;
+  
+    letter-spacing: .6rem;
+  
+    font-weight: bold;
+  
+  }
+  
+  footer {
+
+    display: block;
+  
+    color: white;
+  
+    margin-top: 20%;
+  
+    font-family: 'Orbitron', sans-serif;
+  
+  }
+
+  
+}
+
+.logo-nav {
+
+  width: 20%;
+
+}
+
+.page{
+  background-image: url("/assets/BackgroundRockMe.png");
+}
+
+label{
+  color : white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h2{
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+p{
+  color:white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.button, .btn{
+  border-radius: 20px;
+  font-family: 'Orbitron', sans-serif;
+}
+

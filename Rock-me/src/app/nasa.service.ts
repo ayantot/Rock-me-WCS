@@ -13,12 +13,12 @@ export class NasaService {
       return this.myService.get("https://api.nasa.gov/planetary/apod?api_key=OM7HsZU2VmSA1WUrXHgn1M6MaLZ0fdNhD2PrmRtb").pipe(
         map(
           (param_image:any)=> {
-            let results:any=[];
+            let results:any=[]; 
 
             results.push(param_image.url)
 
             return results;
-
+          
           }
         )
       )

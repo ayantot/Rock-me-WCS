@@ -1,39 +1,31 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import{FormsModule} from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ConditionsComponent } from './conditions/conditions.component';
-import { ContactComponent } from './contact/contact.component';
-import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
-import { HttpClientModule } from '@angular/common/http';
+import { Criterion1Component } from './criterion1/criterion1.component';
+import { Criterion2Component } from './criterion2/criterion2.component';
+import { ProfileComponent } from './profile/profile.component';
+import { DiscussionComponent } from './discussion/discussion.component';
 import { SelectService } from './select.service';
-
-
 
 @NgModule({
   declarations: [
     AppComponent,
-    ConditionsComponent,
-    ContactComponent,
-    HomeComponent
-
+    HomeComponent,
+    Criterion1Component,
+    Criterion2Component,
+    ProfileComponent,
+    DiscussionComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    RouterModule.forRoot([
-      {path:'App', component: AppComponent},
-
-      {path:'', component: HomeComponent},
-      {path:'Conditions', component: ConditionsComponent },
-      {path:'Contact', component: ContactComponent },
-
-    ]
-    )
+    AppRoutingModule
   ],
   providers: [SelectService],
   bootstrap: [AppComponent]
