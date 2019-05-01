@@ -1,2 +1,7 @@
 # Rock-me-WCS
-Create a date website for asteroids (Wild Code School project2)
+
+Homepage staf works on 3 pages:
+
+-Homepage
+-Privacy terms
+-Contact
