@@ -1,2 +1,6 @@
 # Rock-me-WCS
-Create a date website for asteroids (Wild Code School project2)
+
+Chat staff works on 2 pages:
+
+- Profile (found after research)
+- Chat (last step between two asteroids)
