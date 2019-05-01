@@ -1,0 +1,178 @@
+/* Styles */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 1024px) {
+  h1{
+    text-align: center;
+    font-size: 1.0rem;
+  }
+}
+
+/* Header */
+header {
+  top: 0px; 
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.6rem;
+  font-weight: bold;
+}
+
+.logo-nav {
+  width: 20%;
+}
+
+/* Footer */
+footer {
+  display: block;
+  color: white;
+  bottom: 0px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Body */
+body{
+  margin: 0;
+  padding: 0;
+  background: url(/assets/BackgroundRockMe.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.bouton2 {
+  border-radius: 20px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Form Enter your name */
+.form-control {
+  margin-top: 2%;
+  border-radius: 20px;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  width: 100% !important;
+  height: 5.0rem !important;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* Choose your Sex */
+.block-radio {
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 2%;
+}
+
+.custom-control-label {
+  color: #000000;
+}
+
+/* Slide Weight */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 60px 20px;
+}
+@media (min-width: 600px) {
+  body {
+    padding: 60px;
+  }
+}
+
+.range-slider {
+  margin: 60px 0 0 0%;
+}
+
+.range-slider {
+  width: 100%;
+}
+
+.range-slider__range {
+  -webkit-appearance: none;
+  width: calc(100% - (73px));
+  height: 10px;
+  border-radius: 5px;
+  background: #d7dcdf;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+.range-slider__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+}
+.range-slider__range::-webkit-slider-thumb:hover {
+  background: #ff7fdf;
+}
+.range-slider__range:active::-webkit-slider-thumb {
+  background: #ff7fdf;
+}
+.range-slider__range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50%;
+  background: #2c3e50;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+}
+.range-slider__range::-moz-range-thumb:hover {
+  background: #ff7fdf;
+}
+.range-slider__range:active::-moz-range-thumb {
+  background: #ff7fdf;
+}
+.range-slider__range:focus::-webkit-slider-thumb {
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #ff7fdf;
+}
+
+.range-slider__value {
+  display: inline-block;
+  position: relative;
+  width: 60px;
+  color: rgb(0, 0, 0);
+  line-height: 20px;
+  text-align: center;
+  border-radius: 3px;
+  background: #fff;
+  padding: 5px 10px;
+  margin-left: 8px;
+}
+.range-slider__value:after {
+  position: absolute;
+  top: 8px;
+  left: -7px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-right: 7px solid #fff;
+  border-bottom: 7px solid transparent;
+  content: '';
+}
+
+::-moz-range-track {
+  background: #d7dcdf;
+  border: 0;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+  border: 0;
+}
