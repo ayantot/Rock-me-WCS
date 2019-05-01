@@ -11,24 +11,25 @@ export class ChatComponent implements OnInit {
 
   ngOnInit() {
   }
-  myFunction() {
+
+  start(){
     var demo = document.getElementById("demo");
 
     demo.innerHTML = "WCS_LL_02042019 says : <br> Sure, I'm excited to see you in person :) !";
     demo.style.display = "block";
-    /*Quand je clique sur le boutton de la fonction "myFunction ", alors un deuxième message apparait au bout de X secondes*/1
-    setTimeout(this.congratulations, 2000);
+  /*Quand je clique sur le boutton de la fonction "my ", alors un deuxième message apparait au bout de X secondes*/1
+    setTimeout(this.congratulations.bind(this), 1000);
   }
 
   congratulations() {
     var demo2 = document.getElementById("demo2");
-    demo2.innerHTML = "CONGRULATIONS : See you on earth in 200 years.";
+    demo2.innerHTML = "CONGRULATIONS : RENDEZ-VOUS DANS 200 ANS SUR TERRE";
     demo2.style.display = "block";
   }
 
   sorry() {
     var demo3 = document.getElementById("demo3");
-    demo3.innerHTML = "Sorry, for next time.";
+    demo3.innerHTML = "DESOLE POUR UNE PROCHAINE";
     demo3.style.display = "block";
   }
 
@@ -40,8 +41,9 @@ export class ChatComponent implements OnInit {
     demo1.innerHTML = "WCS_LL_02042019 says : <br> Sorry, Maybe next time !";
     demo1.style.display = "block";
     /*Si je clique sur le boutton de la fonction "myNoContinuation ", alors un deuxième message apparait au bout de 30 secondes*/
-    setTimeout(this.sorry, 2000);
+    setTimeout(this.sorry.bind(this), 1000);
   }
 
 
 }
+
