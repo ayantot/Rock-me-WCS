@@ -1,0 +1,37 @@
+.page{
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  background-image: url("/assets/backgroundrockme.png");
+}
+header {
+
+  top: 0px; 
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.4rem;
+  letter-spacing: .6rem;
+  font-weight: bold;
+
+}
+
+.logo-nav {
+
+  width: 30%;
+
+}
+footer {
+
+  display: block;
+  color: white;
+  margin-top:20%;
+  font-family: 'Orbitron', sans-serif;
+
+}
+h2, h1, h3, h4{
+  margin-top:5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+p, li{
+  margin-left: 5%;
+  margin-right: 5%;
+}
