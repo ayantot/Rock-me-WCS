@@ -1,6 +1,12 @@
 # Rock-me-WCS
 
-Chat staff works on 2 pages:
+For this project we decided to create a date website (like Tinder) for the asteroids alone in the universe.
 
-- Profile (found after research)
-- Chat (last step between two asteroids)
+It's the second project in group for the Wild Code School at La Loupe.
+
+Group:
+
+- FAINTRENIE Antoine
+- ROBERT Mickaël 
+- PINGLOT Fabrice
+- TEGNY Thomas
