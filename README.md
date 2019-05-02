@@ -17,15 +17,9 @@ Ce checkpoint est très consistant, si tu n'arrives pas à tout faire ce n'est p
 
 ## Étape 1 - Quiz
 
-- Pour lancer le quiz, ouvre un terminal à la racine de ce projet, et tape la commande suivante :
-
-```sh
-wcs-checkpoints-quiz start
-```
-
-- Suis les instructions présentes dans le terminal
-- Réponds aux questions qui te seront posées
-- Une fois le quiz terminé, n'oublie pas de commit le fichier de réponses
+- Pour répondre au quiz rend toi sur [cette application](http://checkpoint-quiz.campus-bordeaux.ovh/).
+- Réponds aux questions du Quiz `Checkpoint 2 - Angular`
+- Une fois le quiz terminé, copie et colle le lien fourni par l'application dans un fichier Quiz.md à la racine de ton projet, et `commit`
 
 ## Étape 2 - Angular
 
