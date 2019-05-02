@@ -135,7 +135,11 @@
 }
 
 .page{
+<<<<<<< HEAD
   background-image: url("/assets/BackgroundRockMe.png")
+=======
+  background-image: url("/assets/BackgroundRockMe.png");
+>>>>>>> 1e6a115850a7b3d1fcc6610f68a2267711fd070e
 }
 
 label{
@@ -157,3 +161,9 @@ p{
   font-family: 'Orbitron', sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+.active{
+  color:white;
+}
+>>>>>>> 1e6a115850a7b3d1fcc6610f68a2267711fd070e

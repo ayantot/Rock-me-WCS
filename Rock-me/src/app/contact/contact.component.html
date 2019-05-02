@@ -1,0 +1,57 @@
+<div class="page">
+<header>
+  <nav class="navbar navbar-dark bg-dark col-xl-12">
+    <a class="navbar-brand"><img class="logo-nav" routerLink="/homepage" src="/assets/logo_rockmelong.png"></a>
+  </nav>
+</header>
+
+<h2>Here, you can write a message for the staff</h2>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <form (ngSubmit)="myForm.valid && onSubmit(f)" #myForm="ngForm">
+        <div class="name">
+          <label for="name-order">Enter your name : </label>
+          <input type="text" name="name-order" [(ngModel)]="model.name" #name="ngModel" required>
+        </div>
+        <div class="name message-invalidated" *ngIf="name.errors && myForm.submitted">
+          <span *ngIf="name.errors.required">
+            The field is mandatory</span>
+        </div>
+        <div class="mail">
+          <label for="contact-order">Your mail : </label>
+          <input type="email" name="contact-order" [(ngModel)]="model.contact" #contact="ngModel" required email><br />
+        </div>
+        <div class="mail" *ngIf="contact.errors">
+          <span *ngIf="contact.errors.required && myForm.submitted">please enter your email address</span>
+          <span *ngIf="contact.errors.email">
+            There is an error in your email address</span>
+        </div>
+        <div class="message">
+          <label for="message-order">Your message : </label>
+          <textarea type="message" name="message-order" [(ngModel)]="model.message" #message="ngModel"
+            required></textarea>
+        </div>
+        <div class="message" *ngIf="message.errors && myForm.submitted">
+          <span *ngIf="message.errors.required">
+            The field is mandatory</span>
+        </div>
+      </form>
+      <button type="submit" [disabled]="validation" class="btn btn-light">Send</button>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <ul class="nav justify-content-center nav-dark bg-dark col-xl-12">
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="/contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="/conditions">Conditions</a>
+      </li>
+    </ul>
+  </footer>
+</div>
