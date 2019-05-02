@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -71,6 +72,7 @@ import { ConditionsComponent } from './conditions/conditions.component';
     )
   ],
   providers: [SelectService],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
