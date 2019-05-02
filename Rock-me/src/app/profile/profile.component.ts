@@ -1,9 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 1e6a115850a7b3d1fcc6610f68a2267711fd070e
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
@@ -14,11 +10,6 @@ export class ProfileComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-<<<<<<< HEAD
-  }
-
-}
-=======
 
   }
   myDetail() {
@@ -38,4 +29,3 @@ export class ProfileComponent implements OnInit {
 
 
 
->>>>>>> 1e6a115850a7b3d1fcc6610f68a2267711fd070e

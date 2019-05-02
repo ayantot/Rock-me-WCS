@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HomeComponent } from './home.component';
@@ -24,6 +23,3 @@ describe('HomeComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-=======
-
->>>>>>> 1e6a115850a7b3d1fcc6610f68a2267711fd070e
