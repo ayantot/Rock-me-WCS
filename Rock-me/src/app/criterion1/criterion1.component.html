@@ -2,7 +2,7 @@
 
 <header>
   <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#"><img class="logo-nav" src="../assets/Logo_RockMeLong.png"></a>
+    <a class="navbar-brand"><img class="logo-nav" routerLink="/homepage" src="../assets/Logo_RockMeLong.png"></a>
   </nav>
 </header>
 
@@ -33,12 +33,10 @@
             your Planet System
             <span class="caret"></span></button>
           <ul class="dropdown-menu">
-            <li><a href="#">Solar System</a></li>
-            <li><a href="#">Proxyma Centauri</a></li>
-            <li><a href="#">Lyche System</a></li>
-          </ul>
-        </div><br /><br />
-
+            <li><a routerLink="criterion1">Solar System</a></li>
+            <li><a routerLink="criterion1">Proxyma Centauri</a></li>
+            <li><a routerLink="criterion1">Lyche System</a></li>
+          </ul>        </div><br /> <br />
         <a href="#demo2" class="btn btn-light btn-block bouton2" data-toggle="collapse">Enter your Weight</a>
         <div id="demo2" class="collapse">
           <div class="range-slider">
@@ -73,7 +71,7 @@
           </form>
         </div><br /><br /> -->
 
-        <a class="btn btn-light btn-block bouton2" aria-pressed="true" href="#" role="button">Let's Rock</a><br /><br />
+        <a class="btn btn-primary btn-block bouton2" routerLink="/criterion2" aria-pressed="true" role="button">Let's Rock</a><br /><br />
 
       </div>
     </div>
@@ -83,10 +81,10 @@
 <footer>
   <ul class="nav justify-content-center nav-dark bg-dark">
     <li class="nav-item">
-      <a class="nav-link active" href="#">Contact</a>
+      <a class="nav-link active" routerLink="/contact">Contact</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link active" href="#">Conditions</a>
+      <a class="nav-link active" routerLink="/conditions">Conditions</a>
     </li>
   </ul>
 </footer>

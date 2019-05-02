@@ -145,9 +145,12 @@
 
     display: block;
     color: white;
-    margin-top:12%;
+    margin-top:18%;
     font-family: 'Orbitron', sans-serif;
   
+  }
+  .active{
+    color:white;
   }
 
 }
@@ -156,6 +159,9 @@
   background-image: url("/assets/backgroundrockme.png");
   color:white;
 
+}
+.active{
+  color:white;
 }
 
 

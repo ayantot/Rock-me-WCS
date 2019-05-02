@@ -2,7 +2,7 @@
   <header>
       <nav class="navbar navbar-dark bg-dark">
     
-        <a class="navbar-brand" href="#"><img class="logo-nav" src="./assets/Logo_RockMeLong.png"></a>
+        <a class="navbar-brand"><img class="logo-nav" routerLink="/homepage" src="./assets/Logo_RockMeLong.png"></a>
     
       </nav>
     </header>
@@ -43,7 +43,7 @@
       <div class="btn-group">
         <button type="button" (click)="myDetail()" id="buttonX" class="btn btn-primary btn-lg">+</button>
         <div class="offset-1"></div>
-        <button type="button" (click)="myFunction()" id="buttonV" class="btn btn-primary btn-lg">V</button>
+        <button type="button" (click)="myFunction()" id="buttonV" routerLink="/chat" class="btn btn-primary btn-lg">V</button>
       </div>
     </div>
   </div>
@@ -51,10 +51,10 @@
 <footer>
   <ul class="nav justify-content-center nav-dark bg-dark"> 
     <li class="nav-item"> 
-      <a class="nav-link active" href="#">Contact</a>  
+      <a class="nav-link active" routerLink="/contact">Contact</a>  
     </li> 
     <li class="nav-item">  
-      <a class="nav-link active" href="#">Conditions</a>
+      <a class="nav-link active" routerLink="/conditions">Conditions</a>
     </li> 
   </ul> 
 </footer>

@@ -128,13 +128,15 @@
 
     display: block;
     color: white;
-    margin-top:12%;
+    margin-top:24%;
     font-family: 'Orbitron', sans-serif;
   
   }
 
 }
-
+.active{
+  color:white;
+}
 
 
 

@@ -35,3 +35,6 @@ p, li{
   margin-left: 5%;
   margin-right: 5%;
 }
+.active{
+  color:white;
+}
